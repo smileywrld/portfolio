@@ -1,12 +1,9 @@
 body {
-	background-color: black;
-	background-repeat: no-repeat;
-	font-family: "Montserrat", sans-serif;
-	font-optical-sizing: auto;
-}
-
-.about-1 {
-	background: url(/images/about-1.webp);
+	background: url(https://images.pexels.com/photos/2272759/pexels-photo-2272759.jpeg?auto=compress&cs=tinysrgb&w=600);
 	background-position: center;
 	background-size: cover;
+	background-color: black;
+	
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
 }
