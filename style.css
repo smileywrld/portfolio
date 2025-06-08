@@ -1,8 +1,12 @@
 body {
-	background: url(/images/back2.jpg);
-	background-position: center;
-	background-size: cover;
+	background-color: black;
 	background-repeat: no-repeat;
 	font-family: "Montserrat", sans-serif;
 	font-optical-sizing: auto;
+}
+
+.about-1 {
+	background: url(/images/about-1.webp);
+	background-position: center;
+	background-size: cover;
 }
