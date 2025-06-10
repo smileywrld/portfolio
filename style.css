@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
 	background: url(https://img.freepik.com/free-photo/black-laptop-screen-dark-room-night_169016-58009.jpg?ga=GA1.1.494652152.1749508497&semt=ais_hybrid&w=740);
 	background-position: center;
@@ -6,4 +11,12 @@ body {
 
 	font-family: "Montserrat", sans-serif;
 	font-optical-sizing: auto;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		background: url(https://img.freepik.com/free-photo/laptop-notepad-black-background-with-neon-light-flat-lay_169016-26820.jpg?ga=GA1.1.494652152.1749508497&semt=ais_hybrid&w=740);
+		background-position: center;
+		background-size: cover;
+	}
 }
