@@ -15,21 +15,34 @@
 	</head>
 	<body class="h-screen px-5">
 		<header
-			class="flex jusify-center justify-around text-lg py-4 text-white font-medium border-b border-solid border-white"
+			class="flex flex-col sm:flex-row items-center justify-between text-lg py-4 text-white font-medium border-b border-solid border-white gap-4 sm:gap-0"
 		>
-			<div>
-				<a href="index.html">Ismail Jimoh </a>
+			<div class="flex items-center">
+				<a href="index.html" class="text-blue">Ismail Jimoh </a>
 				<span class="text-yellow-600">*</span>
 			</div>
 			<nav>
-				<ul class="flex">
-					<li><a href="index.html" class="pl-3">Home</a></li>
-					<li><a href="about.html" target="_blank" class="pl-3">About</a></li>
-					<li><a href="project.html" class="pl-3">Project</a></li>
-					<li><a href="contact.html" class="pl-3">Contact</a></li>
+				<ul class="flex flex-col sm:flex-row items-center">
+					<li>
+						<a href="index.html" class="pl-0 sm:pl-3 py-1 sm:py-0">Home</a>
+					</li>
+					<li>
+						<a
+							href="about.html"
+							target="_blank"
+							class="pl-0 sm:pl-3 py-1 sm:py-0"
+							>About</a
+						>
+					</li>
+					<li>
+						<a href="project.html" class="pl-0 sm:pl-3 py-1 sm:py-0">Project</a>
+					</li>
+					<li>
+						<a href="contact.html" class="pl-0 sm:pl-3 py-1 sm:py-0">Contact</a>
+					</li>
 				</ul>
 			</nav>
-			<a href="contact.html">Contact</a>
+			<a href="contact.html" class="hidden sm:inline">Contact</a>
 		</header>
 
 		<main class="flex jusify-center flex-col h-full">
