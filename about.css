@@ -7,6 +7,8 @@ body {
 	background-color: black;
 	margin: 0;
 	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
 }
 #about-1 {
 	background: url(https://img.freepik.com/free-photo/high-angle-desktop-with-laptop-copy-space_23-2148430882.jpg?ga=GA1.1.494652152.1749508497&semt=ais_hybrid&w=740);
