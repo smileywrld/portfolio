@@ -2,6 +2,7 @@ body {
 	background-color: black;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 #intro {
 	background: url(https://img.freepik.com/free-photo/man-using-laptop-night-top-view-web-banner-with-copy-space_169016-53607.jpg?ga=GA1.1.494652152.1749508497&semt=ais_hybrid&w=740);
